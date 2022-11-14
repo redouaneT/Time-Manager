@@ -4,7 +4,7 @@ class Crud extends PDO
 
     public function __construct()
     {
-        parent::__construct('mysql: host = localhost; dbname = e2295517; charset=utf8', 'zlmFVv9gZgSwOj2RsEkc', 'e2295517');
+        parent::__construct('mysql: host = localhost; dbname = time-manager; charset=utf8', 'root', '');
     }
 
 
